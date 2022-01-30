@@ -2,6 +2,10 @@ import { FC, useState } from "react";
 import { useSelector } from "react-redux";
 
 import { getUser as getUserSelector } from "src/state/redux/features/user/selectors";
+import Icon from "./frames/Icon";
+import UserNameAndAffiliation from "./frames/UserNameAndAffiliation";
+
+import bellIcon from "src/library/icons/header/bell.svg";
 
 import st from "./index.module.scss";
 
@@ -21,9 +25,15 @@ const Header: FC = () => {
 
   return (
     <header className={st.header}>
-      <section className={st.header__search}>{/* <Search /> */}</section>
+      <section className={st.header__search}>Пользуйся на здоровье. Есть желание отблагодарить меня за мое время (потраченное), твое время (сэкономленное), есть совесть? Перевод по номеру телефона</section>
 
-      {id ? null : (
+      {id ? (
+        <div className={st.header__user}>
+          <div className={st.header__icon} onClick={() => setIsNotificationsDropDownActive(true)}>
+            <Icon icon={bellIcon} color="red" isDropdownActive={isNotificationsDropDownActive} closeDropDown={() => setIsNotificationsDropDownActive(false)} />{" "}
+          </div>
+        </div>
+      ) : (
         // <section className={st.header__info}>
         //   <span className={st.header__separator} />
 
