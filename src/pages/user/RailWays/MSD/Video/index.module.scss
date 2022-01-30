@@ -1,0 +1,21 @@
+.video {
+  height: 100%;
+
+  &__content {
+    max-height: calc(100vh - 80px - 42px); //миинус хедер и минус нав панель
+    padding: 20px;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .video {
+    &__content {
+      padding: 0;
+    }
+  }
+}

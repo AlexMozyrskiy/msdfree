@@ -1,0 +1,37 @@
+.uploadTag {
+  display: grid;
+  grid-template-areas:
+    'info info'
+    'upload fact';
+  grid-template-rows: 305px 305px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+  &__button {
+    grid-area: upload;
+  }
+
+  &__info {
+    grid-area: info;
+  }
+
+  &__fact {
+    grid-area: fact;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .uploadTag {
+    grid-template-areas: 'upload' 'fact';
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+
+    &__info {
+      display: none;
+    }
+
+    &__fact {
+      display: none;
+    }
+  }
+}

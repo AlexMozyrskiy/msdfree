@@ -1,0 +1,108 @@
+@import 'src/library/styles/variables/colors.scss';
+
+.app {
+  display: grid;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar content';
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 270px 1fr;
+  height: 100vh;
+  font-family: SF Pro Display;
+  overflow: hidden;
+
+  &_sideBarNotActive {
+    grid-template-columns: 120px 1fr;
+  }
+
+  &__header {
+    grid-area: header;
+    align-self: center;
+
+    &__mobileArrow {
+      display: none;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 25px;
+      right: 10px;
+    }
+  }
+
+  &__sidebar {
+    grid-area: sidebar;
+    background-color: #333269;
+    height: 100vh;
+  }
+
+  &__content {
+    grid-area: content;
+    background-color: #e5e5e5;
+    position: relative;
+
+    & > p {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translateY(-30%) translateX(-50%);
+      width: 100%;
+      text-align: center;
+      color: $errorColor;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      animation-name: error;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  &_fetching {
+    opacity: 0.2;
+  }
+}
+
+@keyframes error {
+  from {
+    display: block;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .app {
+    position: relative;
+    grid-template-areas:
+      'header'
+      'content';
+    grid-template-columns: 1fr;
+
+    &__header {
+      &__mobileArrow {
+        display: block;
+      }
+    }
+
+    &__sidebar {
+      position: absolute;
+      top: 0;
+      left: -120px;
+      z-index: 2;
+      transition: 0.5s;
+
+      &__mobileActive {
+        left: 0;
+      }
+    }
+  }
+}

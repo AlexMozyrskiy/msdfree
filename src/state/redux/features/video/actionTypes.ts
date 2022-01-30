@@ -1,0 +1,23 @@
+export type TSetRetreats = 'msdreport/video/SET_RETREATS'; // Лист "Отступления"
+export type TSetData = 'msdreport/video/SET_DATA'; // Лист "Данные"
+export type TSetCheckedDistances = 'msdreport/video/SET_CHECKED_DISTANCES'; // Лист "Проверенные ПЧ"
+export type TSetCumulativeGaps = 'msdreport/video/SET_CUMULATIVE_GAPS'; // Лист "Зазоры нарастаюший за месяц"
+export type TSetMainTelegramData = 'msdreport/video/SET_MAIN_TELEGRAM_DATA'; // Сформированные данные для основной телеграммы
+export type TSetGapOrders = 'msdreport/video/SET_GAP_ORDERS'; // Сформированные данные для Прил. 1 Суточная справка для предписаний по зазорам
+export type TSetVSPretreats = 'msdreport/video/SET_VSP_RETREATS'; // Сформированные данные для Приложение 2 Ведомость учета неисправностей ВСП
+export type TSetDistancesRetreats = 'msdreport/video/SET_DISTANCES_RETREATS'; // Сформированные данные для Приложение 3 Ведомость о количестве выявленных отступлений по ПЧ.xlsx
+export type TSetGapsControl = 'msdreport/video/SET_GAPS_CONTROL'; // Сформированные данные для Приложение 1з  контроль зазоров
+export type TSetMovements = 'msdreport/video/SET_MOVEMENTS'; // Сформированные данные для Приложение 5 Ведомость подвижки плетей ДК-311
+export type TSetFileValidationErrors = 'msdreport/video/SET_FILE_VALIDATION_ERRORS'; // Массив с ошибками валидации файла
+
+export const SET_RETREATS: TSetRetreats = 'msdreport/video/SET_RETREATS';
+export const SET_DATA: TSetData = 'msdreport/video/SET_DATA';
+export const SET_CHECKED_DISTANCES: TSetCheckedDistances = 'msdreport/video/SET_CHECKED_DISTANCES';
+export const SET_CUMULATIVE_GAPS: TSetCumulativeGaps = 'msdreport/video/SET_CUMULATIVE_GAPS';
+export const SET_MAIN_TELEGRAM_DATA: TSetMainTelegramData = 'msdreport/video/SET_MAIN_TELEGRAM_DATA';
+export const SET_GAP_ORDERS: TSetGapOrders = 'msdreport/video/SET_GAP_ORDERS';
+export const SET_VSP_RETREATS: TSetVSPretreats = 'msdreport/video/SET_VSP_RETREATS';
+export const SET_DISTANCES_RETREATS: TSetDistancesRetreats = 'msdreport/video/SET_DISTANCES_RETREATS';
+export const SET_GAPS_CONTROL: TSetGapsControl = 'msdreport/video/SET_GAPS_CONTROL';
+export const SET_MOVEMENTS: TSetMovements = 'msdreport/video/SET_MOVEMENTS';
+export const SET_FILE_VALIDATION_ERRORS: TSetFileValidationErrors = 'msdreport/video/SET_FILE_VALIDATION_ERRORS';
