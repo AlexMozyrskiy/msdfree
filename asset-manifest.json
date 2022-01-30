@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/msdfree/static/css/main.5c7010c9.chunk.css",
-    "main.js": "/msdfree/static/js/main.10c85ab3.chunk.js",
-    "main.js.map": "/msdfree/static/js/main.10c85ab3.chunk.js.map",
+    "main.css": "/msdfree/static/css/main.4ab307ec.chunk.css",
+    "main.js": "/msdfree/static/js/main.0378d40a.chunk.js",
+    "main.js.map": "/msdfree/static/js/main.0378d40a.chunk.js.map",
     "runtime-main.js": "/msdfree/static/js/runtime-main.34c82c66.js",
     "runtime-main.js.map": "/msdfree/static/js/runtime-main.34c82c66.js.map",
-    "static/js/2.516e8e75.chunk.js": "/msdfree/static/js/2.516e8e75.chunk.js",
-    "static/js/2.516e8e75.chunk.js.map": "/msdfree/static/js/2.516e8e75.chunk.js.map",
+    "static/js/2.42ec4f4c.chunk.js": "/msdfree/static/js/2.42ec4f4c.chunk.js",
+    "static/js/2.42ec4f4c.chunk.js.map": "/msdfree/static/js/2.42ec4f4c.chunk.js.map",
     "index.html": "/msdfree/index.html",
-    "static/css/main.5c7010c9.chunk.css.map": "/msdfree/static/css/main.5c7010c9.chunk.css.map",
-    "static/js/2.516e8e75.chunk.js.LICENSE.txt": "/msdfree/static/js/2.516e8e75.chunk.js.LICENSE.txt",
+    "static/css/main.4ab307ec.chunk.css.map": "/msdfree/static/css/main.4ab307ec.chunk.css.map",
+    "static/js/2.42ec4f4c.chunk.js.LICENSE.txt": "/msdfree/static/js/2.42ec4f4c.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/msdfree/static/media/SFProDisplay-Semibold.dfc89e60.ttf",
     "static/media/agreement.99d564b3.svg": "/msdfree/static/media/agreement.99d564b3.svg",
+    "static/media/bell.f9f88c72.svg": "/msdfree/static/media/bell.f9f88c72.svg",
     "static/media/cargo.52d50bf9.svg": "/msdfree/static/media/cargo.52d50bf9.svg",
     "static/media/converter.557df260.svg": "/msdfree/static/media/converter.557df260.svg",
     "static/media/cookie.7a2e661c.svg": "/msdfree/static/media/cookie.7a2e661c.svg",
+    "static/media/delete.1fc43538.svg": "/msdfree/static/media/delete.1fc43538.svg",
     "static/media/download.775d28be.svg": "/msdfree/static/media/download.775d28be.svg",
     "static/media/forbidden.260db688.jpg": "/msdfree/static/media/forbidden.260db688.jpg",
     "static/media/home.4b119de7.svg": "/msdfree/static/media/home.4b119de7.svg",
@@ -25,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.34c82c66.js",
-    "static/js/2.516e8e75.chunk.js",
-    "static/css/main.5c7010c9.chunk.css",
-    "static/js/main.10c85ab3.chunk.js"
+    "static/js/2.42ec4f4c.chunk.js",
+    "static/css/main.4ab307ec.chunk.css",
+    "static/js/main.0378d40a.chunk.js"
   ]
 }
