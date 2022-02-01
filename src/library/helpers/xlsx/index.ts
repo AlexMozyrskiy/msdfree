@@ -1,4 +1,4 @@
-import XLSX from 'xlsx';
+import XLSX from "xlsx";
 
 /**
  * Считает количество заполненных ячеек в указаннгой колонке колонке файла excel
@@ -51,8 +51,8 @@ export const lastFilledRowNumber = (parsedObject: any, columnLetter: string) => 
  */
 export function createAndUploadWorkBook(data: (string | number)[][], bookName: string, sheetName: string) {
   if (!Array.isArray(data)) {
-    console.error('Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом');
-    return alert('Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом');
+    console.error("Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом");
+    return alert("Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом");
   }
 
   const wb = XLSX.utils.book_new(); // созыдадим новую пустую книгу
@@ -72,21 +72,15 @@ export function createAndUploadWorkBook(data: (string | number)[][], bookName: s
  * @param {string} sheetName - название создаваемого листа
  * @returns
  */
-export function createAndUploadWorkBook2Sheets(
-  data1: (string | number)[][],
-  data2: (string | number)[][],
-  bookName: string,
-  sheetName1: string,
-  sheetName2: string
-) {
+export function createAndUploadWorkBook2Sheets(data1: (string | number)[][], data2: (string | number)[][], bookName: string, sheetName1: string, sheetName2: string) {
   if (!Array.isArray(data1)) {
-    console.error('Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом');
-    return alert('Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом');
+    console.error("Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом");
+    return alert("Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом");
   }
 
   if (!Array.isArray(data2)) {
-    console.error('Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом');
-    return alert('Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом');
+    console.error("Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом");
+    return alert("Переданные Вами данные данные в функцию creatrAndUploadWorkBook() не явлются массивом");
   }
 
   const wb = XLSX.utils.book_new(); // созыдадим новую пустую книгу
@@ -110,8 +104,8 @@ export function createAndUploadWorkBook2Sheets(
  */
 export function createAndUploadWorkBookFromJson(data: object[], bookName: string, sheetName: string) {
   if (!Array.isArray(data)) {
-    console.error('Переданные Вами данные данные в функцию createAndUploadWorkBookFromJson() не явлются массивом');
-    return alert('Переданные Вами данные данные в функцию createAndUploadWorkBookFromJson() не явлются массивом');
+    console.error("Переданные Вами данные данные в функцию createAndUploadWorkBookFromJson() не явлются массивом");
+    return alert("Переданные Вами данные данные в функцию createAndUploadWorkBookFromJson() не явлются массивом");
   }
 
   const wb = XLSX.utils.book_new(); // созыдадим новую пустую книгу

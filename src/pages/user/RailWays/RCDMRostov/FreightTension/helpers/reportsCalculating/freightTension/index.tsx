@@ -1,5 +1,5 @@
-import { calculateMagnitudeN } from 'src/library/helpers/numbers';
-import { IRetreat, IKilometer, ICargo } from 'src/state/redux/features/RCDMRostov/FreightTension/actionCreators';
+import { calculateMagnitudeN } from "src/library/helpers/numbers";
+import { IRetreat, IKilometer, ICargo } from "src/state/redux/features/RCDMRostov/FreightTension/actionCreators";
 
 export type TForXLSXAoA = (string | number)[][];
 
@@ -27,7 +27,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
   let calculatingData = [
     {
       distanceNumber: 1,
-      distanceName: 'ПЧ-1 Шахтинская',
+      distanceName: "ПЧ-1 Шахтинская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -61,7 +61,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 2,
-      distanceName: 'ИЧ-2 Таганрогская',
+      distanceName: "ИЧ-2 Таганрогская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -95,7 +95,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 3,
-      distanceName: 'ПЧ-3 Ростовская',
+      distanceName: "ПЧ-3 Ростовская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -129,7 +129,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 4,
-      distanceName: 'ПЧ-4 Батайская',
+      distanceName: "ПЧ-4 Батайская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -163,7 +163,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 26,
-      distanceName: 'ПЧ-26 Сальская',
+      distanceName: "ПЧ-26 Сальская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -197,7 +197,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 27,
-      distanceName: 'ПЧ-27 Куберлеевская',
+      distanceName: "ПЧ-27 Куберлеевская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -231,7 +231,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 33,
-      distanceName: 'ПЧ-33 Лиховская ',
+      distanceName: "ПЧ-33 Лиховская ",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -265,7 +265,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 35,
-      distanceName: 'ПЧ-35 Миллеровская',
+      distanceName: "ПЧ-35 Миллеровская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -299,7 +299,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 6,
-      distanceName: 'ПЧ-6 Тихорецкая',
+      distanceName: "ПЧ-6 Тихорецкая",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -333,7 +333,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 7,
-      distanceName: 'ПЧ-7 Кавказская',
+      distanceName: "ПЧ-7 Кавказская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -367,7 +367,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 21,
-      distanceName: 'ПЧ-21 Краснодарская',
+      distanceName: "ПЧ-21 Краснодарская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -401,7 +401,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 22,
-      distanceName: 'ПЧ-22 Новороссийская',
+      distanceName: "ПЧ-22 Новороссийская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -435,7 +435,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 23,
-      distanceName: 'ПЧ-23 Старотитаровская',
+      distanceName: "ПЧ-23 Старотитаровская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -469,7 +469,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 24,
-      distanceName: 'ПЧ-24 Тимашевская',
+      distanceName: "ПЧ-24 Тимашевская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -503,7 +503,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 10,
-      distanceName: 'ПЧ-10 Минераловодская',
+      distanceName: "ПЧ-10 Минераловодская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -537,7 +537,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 12,
-      distanceName: 'ПЧ-12 Прохладненская',
+      distanceName: "ПЧ-12 Прохладненская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -571,7 +571,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 28,
-      distanceName: 'ИЧ-3 Ставропольская',
+      distanceName: "ИЧ-3 Ставропольская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -605,7 +605,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 16,
-      distanceName: 'ПЧ-16 Махачкалинская',
+      distanceName: "ПЧ-16 Махачкалинская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -639,7 +639,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 30,
-      distanceName: 'ПЧ-30 Кизлярская',
+      distanceName: "ПЧ-30 Кизлярская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -673,7 +673,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 15,
-      distanceName: 'ПЧ-15 Гудермесская',
+      distanceName: "ПЧ-15 Гудермесская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -707,7 +707,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 8,
-      distanceName: 'ПЧ-8 Армавирская',
+      distanceName: "ПЧ-8 Армавирская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -741,7 +741,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 18,
-      distanceName: 'ПЧ-18 Белореченская',
+      distanceName: "ПЧ-18 Белореченская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -775,7 +775,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 19,
-      distanceName: 'ПЧ-19 Туапсинская',
+      distanceName: "ПЧ-19 Туапсинская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -809,7 +809,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 20,
-      distanceName: 'ИЧ-1 Сочинская',
+      distanceName: "ИЧ-1 Сочинская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -843,7 +843,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     },
     {
       distanceNumber: 32,
-      distanceName: 'ПЧ-32 Горячеключевская',
+      distanceName: "ПЧ-32 Горячеключевская",
       freight1Degree: {
         length: 0,
         score: 0,
@@ -890,9 +890,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
 
     /* отфильтруем информацию из листа Грузо с текущим ПЧ, текущим направлением. Найдем строчку куда попадает неисправность по километру */
     const kilometersData = directionData.filter((item) => {
-      return (
-        retreat.trackNumber === item.trackNumber && retreat.kilometer >= item.startKm && retreat.kilometer <= item.endKm
-      );
+      return retreat.trackNumber === item.trackNumber && retreat.kilometer >= item.startKm && retreat.kilometer <= item.endKm;
     });
 
     /*
@@ -915,14 +913,8 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
           xorKm: item.freight1Degree.xorKm,
           udKm: item.freight1Degree.udKm,
           neudKm: item.freight1Degree.neudKm,
-          retreat4Degree:
-            cargoDegree === 1 && retreat.retreatDegree === 4 && retreat.distanceNumber === item.distanceNumber
-              ? item.freight1Degree.retreat4Degree + retreat.retreatCount
-              : item.freight1Degree.retreat4Degree,
-          retreat3Degree:
-            cargoDegree === 1 && retreat.retreatDegree === 3 && retreat.distanceNumber === item.distanceNumber
-              ? item.freight1Degree.retreat3Degree + retreat.retreatCount
-              : item.freight1Degree.retreat3Degree,
+          retreat4Degree: cargoDegree === 1 && retreat.retreatDegree === 4 && retreat.distanceNumber === item.distanceNumber ? item.freight1Degree.retreat4Degree + retreat.retreatCount : item.freight1Degree.retreat4Degree,
+          retreat3Degree: cargoDegree === 1 && retreat.retreatDegree === 3 && retreat.distanceNumber === item.distanceNumber ? item.freight1Degree.retreat3Degree + retreat.retreatCount : item.freight1Degree.retreat3Degree,
         },
         freight2Degree: {
           length: item.freight2Degree.length,
@@ -931,14 +923,8 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
           xorKm: item.freight2Degree.xorKm,
           udKm: item.freight2Degree.udKm,
           neudKm: item.freight2Degree.neudKm,
-          retreat4Degree:
-            cargoDegree === 2 && retreat.retreatDegree === 4 && retreat.distanceNumber === item.distanceNumber
-              ? item.freight2Degree.retreat4Degree + retreat.retreatCount
-              : item.freight2Degree.retreat4Degree,
-          retreat3Degree:
-            cargoDegree === 2 && retreat.retreatDegree === 3 && retreat.distanceNumber === item.distanceNumber
-              ? item.freight2Degree.retreat3Degree + retreat.retreatCount
-              : item.freight2Degree.retreat3Degree,
+          retreat4Degree: cargoDegree === 2 && retreat.retreatDegree === 4 && retreat.distanceNumber === item.distanceNumber ? item.freight2Degree.retreat4Degree + retreat.retreatCount : item.freight2Degree.retreat4Degree,
+          retreat3Degree: cargoDegree === 2 && retreat.retreatDegree === 3 && retreat.distanceNumber === item.distanceNumber ? item.freight2Degree.retreat3Degree + retreat.retreatCount : item.freight2Degree.retreat3Degree,
         },
         freight3Degree: {
           length: item.freight3Degree.length,
@@ -947,14 +933,8 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
           xorKm: item.freight3Degree.xorKm,
           udKm: item.freight3Degree.udKm,
           neudKm: item.freight3Degree.neudKm,
-          retreat4Degree:
-            cargoDegree === 3 && retreat.retreatDegree === 4 && retreat.distanceNumber === item.distanceNumber
-              ? item.freight3Degree.retreat4Degree + retreat.retreatCount
-              : item.freight3Degree.retreat4Degree,
-          retreat3Degree:
-            cargoDegree === 3 && retreat.retreatDegree === 3 && retreat.distanceNumber === item.distanceNumber
-              ? item.freight3Degree.retreat3Degree + retreat.retreatCount
-              : item.freight3Degree.retreat3Degree,
+          retreat4Degree: cargoDegree === 3 && retreat.retreatDegree === 4 && retreat.distanceNumber === item.distanceNumber ? item.freight3Degree.retreat4Degree + retreat.retreatCount : item.freight3Degree.retreat4Degree,
+          retreat3Degree: cargoDegree === 3 && retreat.retreatDegree === 3 && retreat.distanceNumber === item.distanceNumber ? item.freight3Degree.retreat3Degree + retreat.retreatCount : item.freight3Degree.retreat3Degree,
         },
       };
     });
@@ -969,11 +949,7 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
 
     /* отфильтруем информацию из листа Грузо с текущим ПЧ, текущим направлением. Найдем строчку куда попадает неисправность по километру */
     const kilometersData = directionData.filter((item) => {
-      return (
-        kilometer.trackNumber === item.trackNumber &&
-        kilometer.kilometer >= item.startKm &&
-        kilometer.kilometer <= item.endKm
-      );
+      return kilometer.trackNumber === item.trackNumber && kilometer.kilometer >= item.startKm && kilometer.kilometer <= item.endKm;
     });
 
     /*
@@ -987,77 +963,32 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
         distanceNumber: item.distanceNumber,
         distanceName: item.distanceName,
         freight1Degree: {
-          length:
-            cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber
-              ? +(item.freight1Degree.length + kilometer.checked).toFixed(3)
-              : item.freight1Degree.length,
+          length: cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber ? +(item.freight1Degree.length + kilometer.checked).toFixed(3) : item.freight1Degree.length,
           score: item.freight1Degree.score,
-          otlKm:
-            cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 5
-              ? +(item.freight1Degree.otlKm + kilometer.checked).toFixed(3)
-              : item.freight1Degree.otlKm,
-          xorKm:
-            cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 4
-              ? +(item.freight1Degree.xorKm + kilometer.checked).toFixed(3)
-              : item.freight1Degree.xorKm,
-          udKm:
-            cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 3
-              ? +(item.freight1Degree.udKm + kilometer.checked).toFixed(3)
-              : item.freight1Degree.udKm,
-          neudKm:
-            cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 2
-              ? +(item.freight1Degree.neudKm + kilometer.checked).toFixed(3)
-              : item.freight1Degree.neudKm,
+          otlKm: cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 5 ? +(item.freight1Degree.otlKm + kilometer.checked).toFixed(3) : item.freight1Degree.otlKm,
+          xorKm: cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 4 ? +(item.freight1Degree.xorKm + kilometer.checked).toFixed(3) : item.freight1Degree.xorKm,
+          udKm: cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 3 ? +(item.freight1Degree.udKm + kilometer.checked).toFixed(3) : item.freight1Degree.udKm,
+          neudKm: cargoDegree === 1 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 2 ? +(item.freight1Degree.neudKm + kilometer.checked).toFixed(3) : item.freight1Degree.neudKm,
           retreat4Degree: item.freight1Degree.retreat4Degree,
           retreat3Degree: item.freight1Degree.retreat3Degree,
         },
         freight2Degree: {
-          length:
-            cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber
-              ? +(item.freight2Degree.length + kilometer.checked).toFixed(3)
-              : item.freight2Degree.length,
+          length: cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber ? +(item.freight2Degree.length + kilometer.checked).toFixed(3) : item.freight2Degree.length,
           score: item.freight2Degree.score,
-          otlKm:
-            cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 5
-              ? +(item.freight2Degree.otlKm + kilometer.checked).toFixed(3)
-              : item.freight2Degree.otlKm,
-          xorKm:
-            cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 4
-              ? +(item.freight2Degree.xorKm + kilometer.checked).toFixed(3)
-              : item.freight2Degree.xorKm,
-          udKm:
-            cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 3
-              ? +(item.freight2Degree.udKm + kilometer.checked).toFixed(3)
-              : item.freight2Degree.udKm,
-          neudKm:
-            cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 2
-              ? +(item.freight2Degree.neudKm + kilometer.checked).toFixed(3)
-              : item.freight2Degree.neudKm,
+          otlKm: cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 5 ? +(item.freight2Degree.otlKm + kilometer.checked).toFixed(3) : item.freight2Degree.otlKm,
+          xorKm: cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 4 ? +(item.freight2Degree.xorKm + kilometer.checked).toFixed(3) : item.freight2Degree.xorKm,
+          udKm: cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 3 ? +(item.freight2Degree.udKm + kilometer.checked).toFixed(3) : item.freight2Degree.udKm,
+          neudKm: cargoDegree === 2 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 2 ? +(item.freight2Degree.neudKm + kilometer.checked).toFixed(3) : item.freight2Degree.neudKm,
           retreat4Degree: item.freight2Degree.retreat4Degree,
           retreat3Degree: item.freight2Degree.retreat3Degree,
         },
         freight3Degree: {
-          length:
-            cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber
-              ? +(item.freight3Degree.length + kilometer.checked).toFixed(3)
-              : item.freight3Degree.length,
+          length: cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber ? +(item.freight3Degree.length + kilometer.checked).toFixed(3) : item.freight3Degree.length,
           score: item.freight3Degree.score,
-          otlKm:
-            cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 5
-              ? +(item.freight3Degree.otlKm + kilometer.checked).toFixed(3)
-              : item.freight3Degree.otlKm,
-          xorKm:
-            cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 4
-              ? +(item.freight3Degree.xorKm + kilometer.checked).toFixed(3)
-              : item.freight3Degree.xorKm,
-          udKm:
-            cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 3
-              ? +(item.freight3Degree.udKm + kilometer.checked).toFixed(3)
-              : item.freight3Degree.udKm,
-          neudKm:
-            cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 2
-              ? +(item.freight3Degree.neudKm + kilometer.checked).toFixed(3)
-              : item.freight3Degree.neudKm,
+          otlKm: cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 5 ? +(item.freight3Degree.otlKm + kilometer.checked).toFixed(3) : item.freight3Degree.otlKm,
+          xorKm: cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 4 ? +(item.freight3Degree.xorKm + kilometer.checked).toFixed(3) : item.freight3Degree.xorKm,
+          udKm: cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 3 ? +(item.freight3Degree.udKm + kilometer.checked).toFixed(3) : item.freight3Degree.udKm,
+          neudKm: cargoDegree === 3 && kilometer.distanceNumber === item.distanceNumber && kilometer.grade === 2 ? +(item.freight3Degree.neudKm + kilometer.checked).toFixed(3) : item.freight3Degree.neudKm,
           retreat4Degree: item.freight3Degree.retreat4Degree,
           retreat3Degree: item.freight3Degree.retreat3Degree,
         },
@@ -1067,26 +998,11 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
 
   /* Посчитаем теперь балл */
   calculatingData = calculatingData.map((item) => {
-    const freight1DegreeMagnitudeN = calculateMagnitudeN(
-      item.freight1Degree.otlKm,
-      item.freight1Degree.xorKm,
-      item.freight1Degree.udKm,
-      item.freight1Degree.neudKm
-    );
+    const freight1DegreeMagnitudeN = calculateMagnitudeN(item.freight1Degree.otlKm, item.freight1Degree.xorKm, item.freight1Degree.udKm, item.freight1Degree.neudKm);
 
-    const freight2DegreeMagnitudeN = calculateMagnitudeN(
-      item.freight2Degree.otlKm,
-      item.freight2Degree.xorKm,
-      item.freight2Degree.udKm,
-      item.freight2Degree.neudKm
-    );
+    const freight2DegreeMagnitudeN = calculateMagnitudeN(item.freight2Degree.otlKm, item.freight2Degree.xorKm, item.freight2Degree.udKm, item.freight2Degree.neudKm);
 
-    const freight3DegreeMagnitudeN = calculateMagnitudeN(
-      item.freight3Degree.otlKm,
-      item.freight3Degree.xorKm,
-      item.freight3Degree.udKm,
-      item.freight3Degree.neudKm
-    );
+    const freight3DegreeMagnitudeN = calculateMagnitudeN(item.freight3Degree.otlKm, item.freight3Degree.xorKm, item.freight3Degree.udKm, item.freight3Degree.neudKm);
     return {
       distanceNumber: item.distanceNumber,
       distanceName: item.distanceName,
@@ -1123,6 +1039,54 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
     };
   });
 
+  console.log(calculatingData);
+  const totalOtlKm1degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight1Degree.otlKm;
+  }, 0);
+  const totalOtlKm2degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight2Degree.otlKm;
+  }, 0);
+  const totalOtlKm3degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight3Degree.otlKm;
+  }, 0);
+  const totalXorKm1degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight1Degree.xorKm;
+  }, 0);
+  const totalXorKm2degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight2Degree.xorKm;
+  }, 0);
+  const totalXorKm3degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight3Degree.xorKm;
+  }, 0);
+  const totalUdKm1degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight1Degree.udKm;
+  }, 0);
+  const totalUdKm2degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight2Degree.udKm;
+  }, 0);
+  const totalUdKm3degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight3Degree.udKm;
+  }, 0);
+  const totalNeudKm1degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight1Degree.neudKm;
+  }, 0);
+  const totalNeudKm2degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight2Degree.neudKm;
+  }, 0);
+  const totalNeudKm3degree = calculatingData.reduce((prev, item) => {
+    return prev + item.freight3Degree.neudKm;
+  }, 0);
+
+  const totalOtlKm = totalOtlKm1degree + totalOtlKm2degree + totalOtlKm3degree;
+  const totalXorKm = totalXorKm1degree + totalXorKm2degree + totalXorKm3degree;
+  const totalUdKm = totalUdKm1degree + totalUdKm2degree + totalUdKm3degree;
+  const totalNeudKm = totalNeudKm1degree + totalNeudKm2degree + totalNeudKm3degree;
+
+  const magN1Degree = calculateMagnitudeN(totalOtlKm1degree, totalXorKm1degree, totalUdKm1degree, totalNeudKm1degree);
+  const magN2Degree = calculateMagnitudeN(totalOtlKm2degree, totalXorKm2degree, totalUdKm2degree, totalNeudKm2degree);
+  const magN3Degree = calculateMagnitudeN(totalOtlKm3degree, totalXorKm3degree, totalUdKm3degree, totalNeudKm3degree);
+  const magNTotal = calculateMagnitudeN(totalOtlKm, totalXorKm, totalUdKm, totalNeudKm);
+
   /* Формируем forXLSXAoA */
   forXLSXAoA = calculatingData.map((item) => {
     let returnedArr: (string | number)[] = [];
@@ -1131,31 +1095,33 @@ export const freightTension = (retreats: IRetreat[], kilometers: IKilometer[], c
       item.freight1Degree.length,
       item.freight1Degree.score,
       item.freight1Degree.neudKm,
-      '',
+      "",
       item.freight1Degree.retreat4Degree,
-      '',
+      "",
       item.freight1Degree.retreat3Degree,
-      '',
+      "",
       item.freight2Degree.length,
       item.freight2Degree.score,
       item.freight2Degree.neudKm,
-      '',
+      "",
       item.freight2Degree.retreat4Degree,
-      '',
+      "",
       item.freight2Degree.retreat3Degree,
-      '',
+      "",
       item.freight3Degree.length,
       item.freight3Degree.score,
       item.freight3Degree.neudKm,
-      '',
+      "",
       item.freight3Degree.retreat4Degree,
-      '',
+      "",
       item.freight3Degree.retreat3Degree,
-      ''
+      ""
     );
 
     return returnedArr;
   });
+
+  forXLSXAoA.push(["ИТОГО", "", magN1Degree, "", "", "", "", "", "", "", magN2Degree, "", "", "", "", "", "", "", magN3Degree, "", "", "", "", "", "", "", magNTotal]);
 
   return {
     forXLSXAoA,

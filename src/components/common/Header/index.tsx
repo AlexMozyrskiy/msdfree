@@ -25,7 +25,7 @@ const Header: FC = () => {
 
   return (
     <header className={st.header}>
-      <section className={st.header__search}>Пользуйся на здоровье. Есть желание отблагодарить меня за мое время (потраченное), твое время (сэкономленное), есть совесть? Перевод по номеру телефона</section>
+      <section className={st.header__search}>Есть желание отблагодарить меня за мое время (потраченное), твое время (сэкономленное), есть совесть? Перевод по номеру телефона</section>
 
       {id ? (
         <div className={st.header__user}>
