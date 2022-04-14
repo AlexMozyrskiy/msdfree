@@ -8,12 +8,14 @@ import userReducers from "../features/user/reducer";
 import videoReducers from "../features/video/reducer";
 import freightTensionReducers from "../features/RCDMRostov/FreightTension/reducer";
 import descartesBookConverterReducer from "../features/RCDMRostov/DescartesBookConverter/reducer";
+import slopingReducer from "../features/RCDMRostov/Sloping/reducer";
 
 let rootReducer = combineReducers({
   user: userReducers,
   video: videoReducers,
   freightTension: freightTensionReducers,
   descartesBookConverter: descartesBookConverterReducer,
+  sloping: slopingReducer,
 });
 
 type TRootReducer = typeof rootReducer; // тут будет (state: GlobslState) => GlobalState, typeof после отработки опрелдеит такой тип: (state: GlobslState) => GlobalState для функции rootStore
